@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('/public/img/main.png'); /* Replace with your background image path */
+  background-size: cover; /* Cover the entire viewport */
+  background-position: center; /* Center the background image */
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.NX{
+  color:orange;
+  background-color: orange;
+}
+
+.mainImg{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  text-align: center;
+  background-size: cover;
+}
+
+.mainImgCont{
+  cursor: pointer;
+  width: 100%;
+  height: auto;
+}
+
+.downLeft{
+  position: absolute;
+  display: flex;
+  top: 60%; /* Adjust the top position */
+  left: 10%; /* Adjust the left position */
+}
+.downRight{
+  position: absolute;
+  display: flex;
+  top: 60%; /* Adjust the top position */
+  left: 60%; /* Adjust the left position */
+}
+
+.upRight{
+  position: absolute;
+  display: flex;
+  top: 35%; /* Adjust the top position */
+  left: 60%; /* Adjust the left position */
+ 
+}
+.upLeft{
+  position: absolute;
+  display: flex;
+  top: 35%; /* Adjust the top position */
+  left: 10%; /* Adjust the left position */
+}
+.timerLeft{
+  position: absolute;
+  top:15%;
+  left: 5%;
+  width: 40%;
+  padding: 0.1%;
+  font-size: 4rem;
+  text-align: center;
+  background-color: #413f3f;
+  color: rgb(239, 68, 38);
+}
+.timerRight{
+  position: absolute;
+  top:15%;
+  left: 55%;
+  width: 40%;
+  padding: 0.1%;
+  font-size: 4rem;
+  text-align: center;
+  background-color: #413f3f;
+  color: rgb(239, 68, 38);
+}
+
+.Bout{
+  position: absolute;
+  top:4%;
+  left: 50%;
+  width: 45%;
+  font-size: 1.5rem;
+  transform: translateX(-50%);
+  text-align: center;
+  background-color: #413f3f;
+  color: rgb(239, 68, 38);
+}
+
+.names-container {
+  padding: 40px;
+  background-color: rgb(192, 185, 185);
+  border-radius: 20px;
+}
+
+.item-container {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 60px;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: rgb(151, 147, 147);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.username {
+  grid-column: 1;
+  text-align: left;
+  font-size: 2rem;
+  
+  
+}
+
+.scores-container {
+  grid-column: 2 / span 1;
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  gap: 10px;
+  justify-content: center;
+ 
+}
+
+.totals {
+  grid-column: 3;
+  display: flex;
+  /* margin-left: 30%; */
+  gap: 3px;
+  align-items: flex-end;
+}
+
+.name {
+  padding: 15px;
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 2rem;
+  border-color: #413f3f;
+ 
+  
+}
+.TimerOkButton {
+  
+  color: #413f3f;
+  background-color: gray;
+  border-radius: 5px;
+  border-color: #413f3f;
+  position: absolute;
+  left: 50%;
+  font-size: 2rem;
+  transform: translateX(-50%);
+  top: 88%;
+
+}
+
+.roundCount{
+  background-color: rgb(236, 231, 231);
+  border-radius: 10px;
+  text-align: center;
+  display: inline-block; /* Adjust width based on content */
+  padding: 5px 10px; /* Adjust padding to fit the text comfortably */
+  margin: 5px; /* Optional: Adds margin around the element */
+
+}
