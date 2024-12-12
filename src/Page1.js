@@ -47,7 +47,7 @@ const Page1 = () => {
         <strong>Pagalbinės nuotraukos:</strong>
       </p>
       <img
-        src="/path/to/photo1.png" // Replace with the correct path for photo 1
+        src="/path/to/photo1.png"
         alt="Photo 1"
         style={styles.photo}
       />
