@@ -1,6 +1,7 @@
 import React from "react";
 import s1 from "./photos/s4/1.jpg";
 import s2 from "./photos/s4/2.jpg";
+import s3 from "./photos/s4/3.jpg";
 import pradine from "./photos/Startas.jpg"
 import zemelapis from "./photos/zemelapiai/S4.png"
 
@@ -80,6 +81,11 @@ const Page1 = () => {
       <img
         src= {s2}
         alt="Photo 2"
+        style={styles.photo}
+      />
+        <img
+        src= {s3}
+        alt="Photo 3"
         style={styles.photo}
       />
       </div>

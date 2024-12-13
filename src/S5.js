@@ -1,7 +1,7 @@
 import React from "react";
-// import s1 from "./photos/s1/1.jpg";
-// import s2 from "./photos/s1/2.jpg";
-// import s3 from "./photos/s1/3.jpg";
+import s1 from "./photos/s5/1.jpg";
+import s2 from "./photos/s5/2.jpg";
+import s3 from "./photos/s5/3.jpg";
 import pradine from "./photos/Startas.jpg"
 import zemelapis from "./photos/zemelapiai/S5.png"
 
@@ -73,7 +73,7 @@ const Page1 = () => {
         alt="Photo 1"
         style={styles.photo}
       />
-      {/* <img
+      <img
         src = {s1}
         alt="Photo 1"
         style={styles.photo}
@@ -87,7 +87,7 @@ const Page1 = () => {
         src= {s3}
         alt="Photo 3"
         style={styles.photo}
-      /> */}
+      />
       </div>
     </div>
   );
